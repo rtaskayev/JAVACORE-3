@@ -12,7 +12,8 @@ public class Main {
     public static void main(String[] args) {
 
         // Array of directories to be created
-        List<String> dirsList = Arrays.asList("src", "res", "savegames", "temp", "src\\main", "src\\test", "res\\drawables", "res\\vectors", "res\\icons");
+        List<String> dirsList = Arrays.asList("src", "res", "savegames", "temp", "src\\main", "src\\test",
+                "res\\drawables", "res\\vectors", "res\\icons");
         // Array of files to be created
         List<String> filesList = Arrays.asList("src\\main\\Main.java", "src\\main\\Utils.java", "temp\\temp.txt");
         String dirPath = "D:\\Games\\"; // Working directory
@@ -38,7 +39,7 @@ public class Main {
     }
 
     // Method to create directory
-    static void createDirectory(String path, StringBuilder output){
+    static void createDirectory(String path, StringBuilder output) {
 
         File pathDir = new File(path);
 
